@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PurchaseQuantityView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    PurchaseQuantityView *purchaseQuantityView = [[PurchaseQuantityView alloc]initWithFrame:CGRectMake(40, 40, 200, 40)];
+    [self.view addSubview:purchaseQuantityView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
