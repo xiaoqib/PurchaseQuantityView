@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16EC12FA1B7DDE320040A42D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC12F91B7DDE320040A42D /* main.m */; };
+		16EC12FD1B7DDE320040A42D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC12FC1B7DDE320040A42D /* AppDelegate.m */; };
+		16EC13001B7DDE320040A42D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC12FF1B7DDE320040A42D /* ViewController.m */; };
+		16EC13031B7DDE320040A42D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EC13011B7DDE320040A42D /* Main.storyboard */; };
+		16EC13051B7DDE330040A42D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EC13041B7DDE330040A42D /* Images.xcassets */; };
+		16EC13081B7DDE330040A42D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16EC13061B7DDE330040A42D /* LaunchScreen.xib */; };
+		16EC13141B7DDE330040A42D /* PurchaseQuantityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC13131B7DDE330040A42D /* PurchaseQuantityViewTests.m */; };
+		16EC131F1B7DDECB0040A42D /* PurchaseQuantityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EC131E1B7DDECB0040A42D /* PurchaseQuantityView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EC130E1B7DDE330040A42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16EC12EC1B7DDE320040A42D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16EC12F31B7DDE320040A42D;
+			remoteInfo = PurchaseQuantityView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EC12F41B7DDE320040A42D /* PurchaseQuantityView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurchaseQuantityView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EC12F81B7DDE320040A42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EC12F91B7DDE320040A42D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16EC12FB1B7DDE320040A42D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16EC12FC1B7DDE320040A42D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16EC12FE1B7DDE320040A42D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16EC12FF1B7DDE320040A42D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16EC13021B7DDE320040A42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16EC13041B7DDE330040A42D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16EC13071B7DDE330040A42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		16EC130D1B7DDE330040A42D /* PurchaseQuantityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurchaseQuantityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EC13121B7DDE330040A42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16EC13131B7DDE330040A42D /* PurchaseQuantityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchaseQuantityViewTests.m; sourceTree = "<group>"; };
+		16EC131D1B7DDECB0040A42D /* PurchaseQuantityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseQuantityView.h; sourceTree = "<group>"; };
+		16EC131E1B7DDECB0040A42D /* PurchaseQuantityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseQuantityView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EC12F11B7DDE320040A42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EC130A1B7DDE330040A42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EC12EB1B7DDE320040A42D = {
+			isa = PBXGroup;
+			children = (
+				16EC12F61B7DDE320040A42D /* PurchaseQuantityView */,
+				16EC13101B7DDE330040A42D /* PurchaseQuantityViewTests */,
+				16EC12F51B7DDE320040A42D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16EC12F51B7DDE320040A42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EC12F41B7DDE320040A42D /* PurchaseQuantityView.app */,
+				16EC130D1B7DDE330040A42D /* PurchaseQuantityViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16EC12F61B7DDE320040A42D /* PurchaseQuantityView */ = {
+			isa = PBXGroup;
+			children = (
+				16EC12FB1B7DDE320040A42D /* AppDelegate.h */,
+				16EC12FC1B7DDE320040A42D /* AppDelegate.m */,
+				16EC12FE1B7DDE320040A42D /* ViewController.h */,
+				16EC12FF1B7DDE320040A42D /* ViewController.m */,
+				16EC131D1B7DDECB0040A42D /* PurchaseQuantityView.h */,
+				16EC131E1B7DDECB0040A42D /* PurchaseQuantityView.m */,
+				16EC13011B7DDE320040A42D /* Main.storyboard */,
+				16EC13041B7DDE330040A42D /* Images.xcassets */,
+				16EC13061B7DDE330040A42D /* LaunchScreen.xib */,
+				16EC12F71B7DDE320040A42D /* Supporting Files */,
+			);
+			path = PurchaseQuantityView;
+			sourceTree = "<group>";
+		};
+		16EC12F71B7DDE320040A42D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EC12F81B7DDE320040A42D /* Info.plist */,
+				16EC12F91B7DDE320040A42D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16EC13101B7DDE330040A42D /* PurchaseQuantityViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				16EC13131B7DDE330040A42D /* PurchaseQuantityViewTests.m */,
+				16EC13111B7DDE330040A42D /* Supporting Files */,
+			);
+			path = PurchaseQuantityViewTests;
+			sourceTree = "<group>";
+		};
+		16EC13111B7DDE330040A42D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16EC13121B7DDE330040A42D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EC12F31B7DDE320040A42D /* PurchaseQuantityView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EC13171B7DDE330040A42D /* Build configuration list for PBXNativeTarget "PurchaseQuantityView" */;
+			buildPhases = (
+				16EC12F01B7DDE320040A42D /* Sources */,
+				16EC12F11B7DDE320040A42D /* Frameworks */,
+				16EC12F21B7DDE320040A42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PurchaseQuantityView;
+			productName = PurchaseQuantityView;
+			productReference = 16EC12F41B7DDE320040A42D /* PurchaseQuantityView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16EC130C1B7DDE330040A42D /* PurchaseQuantityViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EC131A1B7DDE330040A42D /* Build configuration list for PBXNativeTarget "PurchaseQuantityViewTests" */;
+			buildPhases = (
+				16EC13091B7DDE330040A42D /* Sources */,
+				16EC130A1B7DDE330040A42D /* Frameworks */,
+				16EC130B1B7DDE330040A42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16EC130F1B7DDE330040A42D /* PBXTargetDependency */,
+			);
+			name = PurchaseQuantityViewTests;
+			productName = PurchaseQuantityViewTests;
+			productReference = 16EC130D1B7DDE330040A42D /* PurchaseQuantityViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EC12EC1B7DDE320040A42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "陈升琪";
+				TargetAttributes = {
+					16EC12F31B7DDE320040A42D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					16EC130C1B7DDE330040A42D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 16EC12F31B7DDE320040A42D;
+					};
+				};
+			};
+			buildConfigurationList = 16EC12EF1B7DDE320040A42D /* Build configuration list for PBXProject "PurchaseQuantityView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16EC12EB1B7DDE320040A42D;
+			productRefGroup = 16EC12F51B7DDE320040A42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16EC12F31B7DDE320040A42D /* PurchaseQuantityView */,
+				16EC130C1B7DDE330040A42D /* PurchaseQuantityViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16EC12F21B7DDE320040A42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC13031B7DDE320040A42D /* Main.storyboard in Resources */,
+				16EC13081B7DDE330040A42D /* LaunchScreen.xib in Resources */,
+				16EC13051B7DDE330040A42D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EC130B1B7DDE330040A42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16EC12F01B7DDE320040A42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC13001B7DDE320040A42D /* ViewController.m in Sources */,
+				16EC12FD1B7DDE320040A42D /* AppDelegate.m in Sources */,
+				16EC131F1B7DDECB0040A42D /* PurchaseQuantityView.m in Sources */,
+				16EC12FA1B7DDE320040A42D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16EC13091B7DDE330040A42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EC13141B7DDE330040A42D /* PurchaseQuantityViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16EC130F1B7DDE330040A42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16EC12F31B7DDE320040A42D /* PurchaseQuantityView */;
+			targetProxy = 16EC130E1B7DDE330040A42D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16EC13011B7DDE320040A42D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EC13021B7DDE320040A42D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16EC13061B7DDE330040A42D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EC13071B7DDE330040A42D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16EC13151B7DDE330040A42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16EC13161B7DDE330040A42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16EC13181B7DDE330040A42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PurchaseQuantityView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16EC13191B7DDE330040A42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PurchaseQuantityView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16EC131B1B7DDE330040A42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PurchaseQuantityViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurchaseQuantityView.app/PurchaseQuantityView";
+			};
+			name = Debug;
+		};
+		16EC131C1B7DDE330040A42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PurchaseQuantityViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PurchaseQuantityView.app/PurchaseQuantityView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EC12EF1B7DDE320040A42D /* Build configuration list for PBXProject "PurchaseQuantityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC13151B7DDE330040A42D /* Debug */,
+				16EC13161B7DDE330040A42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EC13171B7DDE330040A42D /* Build configuration list for PBXNativeTarget "PurchaseQuantityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC13181B7DDE330040A42D /* Debug */,
+				16EC13191B7DDE330040A42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16EC131A1B7DDE330040A42D /* Build configuration list for PBXNativeTarget "PurchaseQuantityViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC131B1B7DDE330040A42D /* Debug */,
+				16EC131C1B7DDE330040A42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16EC12EC1B7DDE320040A42D /* Project object */;
+}
