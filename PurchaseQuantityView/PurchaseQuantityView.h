@@ -18,9 +18,9 @@
 
 -(id)initWithFrame:(CGRect)frame;// 设置 位置及大小。
 
--(id)initWithPurchaseQuantityTextFieldFont:(UIFont*)font;//设置 textField 里面数字字体。
+-(void)initWithPurchaseQuantityTextFieldFont:(UIFont*)font;//设置 textField 里面数字字体。
 
--(id)initWithButtonBackgroundColor;// 设置 按钮背景颜色
+-(void)initWithButtonBackgroundColor:(UIColor*)color;// 设置 按钮背景颜色
 
 
 @end

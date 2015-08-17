@@ -20,7 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     PurchaseQuantityView *purchaseQuantityView = [[PurchaseQuantityView alloc]initWithFrame:CGRectMake(40, 40, 200, 40)];
     [self.view addSubview:purchaseQuantityView];
-    
+    [purchaseQuantityView initWithPurchaseQuantityTextFieldFont:[UIFont systemFontOfSize:20]];
+    [purchaseQuantityView initWithButtonBackgroundColor:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning {

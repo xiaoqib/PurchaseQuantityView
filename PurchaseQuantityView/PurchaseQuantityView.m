@@ -22,7 +22,7 @@
 }
 -(void)addTwoButtonAndTextField{
     _addButton = [[UIButton alloc]init];
-    [_addButton setTitle:@" + " forState:UIControlStateNormal];
+    [_addButton setTitle:@"+" forState:UIControlStateNormal];
     _addButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     _addButton.backgroundColor = [UIColor orangeColor];
     [self addSubview:_addButton];
@@ -34,7 +34,7 @@
     }];
     
     _minusButton = [[UIButton alloc]init];
-    [_minusButton setTitle:@" - " forState:UIControlStateNormal];
+    [_minusButton setTitle:@"-" forState:UIControlStateNormal];
     _minusButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     _minusButton.backgroundColor = [UIColor orangeColor];
     [self addSubview:_minusButton];
@@ -56,4 +56,15 @@
         make.bottom.equalTo(self.mas_bottom);
     }];
 }
+
+-(void)initWithPurchaseQuantityTextFieldFont:(UIFont*)font{
+    
+    _PurchaseQuantityTextField.font = font;
+    
+}
+-(void)initWithButtonBackgroundColor:(UIColor*)color{
+    _addButton.backgroundColor = color;
+    _minusButton.backgroundColor = color;
+}
+
 @end
